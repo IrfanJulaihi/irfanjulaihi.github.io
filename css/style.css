@@ -354,7 +354,8 @@ img#site-title {
 .skills .rm-thumb {
 	width:100px;
 	height:100px;
-	background-repeat:no-repeat;
+	background-size: 150px;
+	
 	background-position:center center;
 	float:left;
 	margin:0 20px 0 0;
