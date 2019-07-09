@@ -13,7 +13,8 @@
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/animate.css">
   <link href="css/style.css" rel="stylesheet">
-
+<link href="css/imagezoom.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
@@ -23,6 +24,7 @@
     Author: BootstrapMade
     Author URL: https://bootstrapmade.com
   ======================================================= -->
+
 </head>
 
 <body>
@@ -248,9 +250,10 @@
             <ul class="grid">
               <li class="grid-sizer"></li>
               <!-- for Masonry column width -->
-              <li>
+              <li value="1">
                 <figure>
-                  <img src="img/work/Project1/Litracks.png" alt="" / style="height:200px">
+                <img class="myImg" id="myImg" src="img/work/Project1/Litracks.png" alt="" / style="height:200px">
+                  
                   <figcaption>
                     <h3>LiTracks</h3>
                     <p>Litigation Tracking System</p>
@@ -259,7 +262,7 @@
               </li>
               <li>
                 <figure>
-                  <img src="img/work/Risk-Management.jpg" alt="" / style="height:200px">
+                  <img class="myImg" id="myImg" src="img/work/Risk-Management.jpg" alt="" / style="height:200px">
                   <figcaption>
                     <h3>Risk Management System</h3>
                     <p></p>
@@ -268,7 +271,7 @@
               </li>
               <li>
                 <figure>
-                  <img src="img/work/InternTrackSystem.jpg" alt="" / style="height:220px">
+                  <img src="img/work/InternTrackSystem.jpg" alt="" / style="height:200px">
                   <figcaption>
                     <h3>Intern Tracking System</h3>
                     <p></p>
@@ -305,7 +308,7 @@
           
               <li>
                 <figure>
-                  <img src="img/work/JustMotor.png" alt="" / style="height:200px">
+                  <img src="img/work/Justmotor.png" alt="" / style="height:200px">
                   <figcaption>
                     <h3>Justmotor</h3>
                     <p></p>
@@ -314,10 +317,32 @@
               </li>
              
 
+
+
             </ul>
           </section>
-          <!-- // end small images -->
 
+<!--Gallery pictures of First System-->
+       
+     <div id="myModal" class="modal">
+     <div class="w3-content w3-display-container">
+  <img class="mySlides" src="img/work/Project1/Litracks.png" style="width:100%">
+  <img class="mySlides" src="img/work/Project1/Litracks2.png" style="width:100%">
+ 
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+  <span class="close">&times;</span>
+ 
+  <div id="caption"></div>
+</div>
+
+
+
+
+          <!-- // end small images -->
+<!--
           <section class="slideshow">
             <ul>
               <li>
@@ -326,43 +351,53 @@
                 </figure>
                 <h1 align="center" style="color:white">Litigation Tracking System SEDC<h1>
               </li>
+              
+
+
               <li>
                 <figure>
                   <img src="img/work/Project1/risk2.png" alt="" / style="height:100%;width:100%;">
                 </figure>
                 <h1 align="center" style="color:white">Risk Management System SEDC<h1>
               </li>
+              
+
               <li>
                 <figure>
                  <img src="img/work/Project1/intern3.png" alt="" / style="height:100%;">
                 </figure>
                 <h1 align="center" style="color:white">Intern Tracking System SEDC<h1>
               </li>
+              
+
               <li>
                 <figure>
                   <img src="img/work/Project1/CV4.png" alt="" / style="height:100%;">
                 </figure>
                 <h1 align="center" style="color:white">Curriculum Vitae System<h1>
               </li>
+            
+            
               <li>
                 <figure>
-                  <img src="img/work/Projec1/donation5s.png" alt="" / style="height:100%;">
+                  <img src="img/work/Project1/Scantend7.png" alt="" /style="height:100%;">
+                </figure>
+                  <h1 align="center" style="color:white">Scan & Attend Mobile App<h1>
+              </li>
+             
+              <li>
+                <figure>
+                  <img src="img/work/Project1/JustMotor8.png" alt="" / style="height:100%;">
+                </figure>
+                           <h1 align="center" style="color:white">JustMotor Mobile App<h1>
+                                      </li>
+               
+               <li>
+                <figure>
+                  <img src="img/work/Projec1/7.png" alt="" / style="height:100%;">
                 </figure>
                 <h1 align="center" style="color:white">Donation System<h1>
               </li>
-              <li>
-                <figure>
-                  <img src="img/work/Project1/Scantend7.png" alt="" /style="height:100%;>
-                </figure>
-              </li>
-                 <h1 align="center" style="color:white">Scan & Attend Mobile App<h1>
-              <li>
-                <figure>
-                  <img src="img/work/Project1/JustMotor8.png" alt="" />
-                </figure>
-              </li>
-               <h1 align="center" style="color:white">JustMotor Mobile App<h1>
-
       
                  </ul>
             <nav>
@@ -377,7 +412,7 @@
         <!-- // grid-gallery -->
       </div>
     </section>
-
+-->
     <!--education-->
     <section class="feedback" id="feedback">
       <div class="container">
@@ -556,6 +591,54 @@
     });
   </script>
   <script src="contactform/contactform.js"></script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
 
 
 </body>
