@@ -1,119 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+
+<script src="https://raw.githubusercontent.com/codebox/moment-precise-range/master/moment-precise-range.js"></script>
 
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Irfan Julaihi Website Portfolio </title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Irfan Julaihi Website Portfolio </title>
 
-<!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/font-awesome.css">
-<link rel="stylesheet" href="css/animate.css">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/imagezoom.css" rel="stylesheet" />
-<link href="css/typeAnimation.css" rel="stylesheet"/>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link
-href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
-rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
-<!-- =======================================================
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/imagezoom.css" rel="stylesheet" />
+	<link href="css/typeAnimation.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link
+		href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+		rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+	<!-- =======================================================
 Theme Name: MyResume
 Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 Author: BootstrapMade
 Author URL: https://bootstrapmade.com
 ======================================================= -->
-
 </head>
-<body>
-<div class="wrapper" id="wrapper">
-<header>
-<div class="banner row" id="banner">
-<div class="parallax text-center" style="background-color:black;height:600px">
-<div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
-<div class="parallax-pattern-overlay">
-</div>
-</div>
-</div>
-<div class="menu">
-<div class="navbar-wrapper">
-<div class="container">
-<div class="navwrapper">
-<div class="navbar navbar-inverse navbar-static-top">
-<div class="container">
-<div class="navArea">
-<div class="navbar-collapse collapse">
-<ul class="nav navbar-nav">
-<li class="menuItem active"><a href="#wrapper">Home</a></li>
-<li class="menuItem"><a href="#aboutus">About Me</a></li>
-<li class="menuItem"><a href="#specialties">Skills</a></li>
-<li class="menuItem"><a href="#experience">Experience</a></li>
-<li class="menuItem"><a href="#gallery">Portfolio</a></li>
-<li class="menuItem"><a href="#feedback">Education</a></li>
-<li class="menuItem"><a href="#contact">Contact</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</header>
-<!--about us-->
-<section class="aboutus" id="aboutus">
-<div class="container">
-<div class="heading text-center">
-<h2>About Me</h2>
-<h3><h3>
-<p style="color:black" class="wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="60.9s">Welcome to my site. I am a front end developer.I have been graduated with IT degree and have been working as junior software developer before.Now I am currently active seeking a job in front end development jobs.
-.You can reach me at my email for any job opportunity.Cheers
-</p>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<div class="papers text-center">
-<img src="img/team/1.jpg" style="height:800px;padding-top:80px;" alt=""><br />
-<span class="blinking2">
-<a href="https://getresume-ca7b5.web.app/" target="_blank"><b>Download my resume</b></a>
-</span>
-<h4 class="">Biodata</h4>
-<h5>
-<b>Name:</b>Mohd.Irfan Bin Julaihi
-<br>
-<br>
-<b>Date of Birth:</b>20.9.199X
-<br>
-<br>
-<b>Location:</b>Kuching,Sarawak
-</h5>
-</div>
-</div>
-</section>
-<!--skills-->
-<section class="specialties" id="specialties">
-<div class="container">
-<div class="heading text-center">
-<h2>My Skills</h2>
-<h3> </h3>
-</div>
-</div>
 
-<div class="container">
-<div class="row">
-<div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s" ">
+<body>
+	<div class="wrapper" id="wrapper">
+		<header>
+			<div class="banner row" id="banner">
+				<div class="parallax text-center" style="background-color:black;height:250px">
+					<div class='console-container'><span id='text'></span>
+						<div class='console-underscore' id='console'>&#95;</div>
+					</div>
+					<div class="container" style="  color: rgb(108, 255, 23);
+	margin: 0 auto;
+	text-align: center;">
+						<h1 id="headline" style=" font-weight: normal;
+		letter-spacing: .125rem;color: rgb(108, 255, 23);
+		text-transform: uppercase;margin-top:100px">Working experience:</h1>
+						<div id="countdown">
+							<ul>
+								<li style="  display: inline-block;
+			font-size: 1.5em;
+			list-style-type: none;
+			padding: 1em;
+			text-transform: uppercase;"><span id="years"></span> Years</li>
+								<li style="  display: inline-block;
+			font-size: 1.5em;
+			list-style-type: none;
+			padding: 1em;
+			text-transform: uppercase;"><span id="months"></span> Months</li>
+								<li style="  display: inline-block;
+			font-size: 1.5em;
+			list-style-type: none;
+			padding: 1em;
+			text-transform: uppercase;"><span id="days"></span> Days</li>
+								<!-- <li style="  display: inline-block;
+			font-size: 1.5em;
+			list-style-type: none;
+			padding: 1em;
+			text-transform: uppercase;"><span id="seconds"></span>Seconds</li> -->
+							</ul>
+						</div>
+					</div>
+
+					<div class="parallax-pattern-overlay">
+					</div>
+
+				</div>
+				<div class="menu">
+					<div class="navbar-wrapper">
+						<div class="container">
+							<div class="navwrapper">
+								<div class="navbar navbar-inverse navbar-static-top">
+									<div class="container">
+										<div class="navArea">
+											<div class="navbar-collapse collapse">
+												<ul class="nav navbar-nav">
+													<li class="menuItem active"><a href="#wrapper">Home</a></li>
+													<li class="menuItem"><a href="#aboutus">About Me</a></li>
+													<li class="menuItem"><a href="#specialties">Skills</a></li>
+													<li class="menuItem"><a href="#experience">Experience</a></li>
+													<li class="menuItem"><a href="#gallery">Portfolio</a></li>
+													<li class="menuItem"><a href="#feedback">Education</a></li>
+													<li class="menuItem"><a href="#contact">Contact</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</header>
+		<!--about us-->
+		<section class="aboutus" id="aboutus">
+			<div class="container">
+				<div class="heading text-center">
+					<h2>About Me</h2>
+					<h3>
+						<h3>
+							<p style="color:black" class="wow fadeInDown" wow-data-delay="0.0s"
+								wow-data-duration="60.9s">Welcome to my site. I am a front end developer.I have been
+								graduated with IT degree and have been working as junior software developer before.Now I
+								am currently active seeking a job in front end development jobs.
+								.You can reach me at my email for any job opportunity.Cheers
+							</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="papers text-center">
+						<img src="img/team/1.jpg" style="height:800px;padding-top:80px;" alt=""><br />
+						<span class="blinking2">
+							<a href="https://getresume-ca7b5.web.app/" target="_blank"><b>Download my resume</b></a>
+						</span>
+						<h4 class="">Biodata</h4>
+						<h5>
+							<b>Name:</b>Mohd.Irfan Bin Julaihi
+							<br>
+							<br>
+							<b>Date of Birth:</b>20.9.199X
+							<br>
+							<br>
+							<b>Location:</b>Kuching,Sarawak
+						</h5>
+					</div>
+				</div>
+		</section>
+		<!--skills-->
+		<section class="specialties" id="specialties">
+			<div class="container">
+				<div class="heading text-center">
+					<h2>My Skills</h2>
+					<h3> </h3>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s" ">
 <div class=" skill ">
 <div class=" progress-wrap ">
 <h3>Mobile Development</h3>
 <div class=" progress ">
-<div class=" progress-bar color3 " role=" progressbar " aria-valuenow=" 40 " aria-valuemin="
-0 " aria-valuemax=" 100 " style=" width: 70% "
+<div class=" progress-bar color3 " role=" progressbar " aria-valuenow=" 40 " aria-valuemin=" 0 " aria-valuemax="
+						100 " style=" width: 70% "
 >
 <span class=" bar-width ">70%</span>
 </div>
@@ -122,8 +163,8 @@ Author URL: https://bootstrapmade.com
 <div class=" progress-wrap ">
 <h3>Front-End Development</h3>
 <div class=" progress ">
-<div class=" progress-bar color2 " role=" progressbar " aria-valuenow=" 20 " aria-valuemin="
-0 " aria-valuemax=" 100 " style=" width: 80% ">
+<div class=" progress-bar color2 " role=" progressbar " aria-valuenow=" 20 " aria-valuemin=" 0 " aria-valuemax="
+						100 " style=" width: 80% ">
 <span class=" bar-width ">80%</span>
 </div>
 </div>
@@ -131,8 +172,8 @@ Author URL: https://bootstrapmade.com
 <div class=" progress-wrap ">
 <h3>Back-End Development</h3>
 <div class=" progress ">
-<div class=" progress-bar color1 " role=" progressbar " aria-valuenow=" 60 " aria-valuemin="
-0 " aria-valuemax=" 100 " style=" width: 60% ">
+<div class=" progress-bar color1 " role=" progressbar " aria-valuenow=" 60 " aria-valuemin=" 0 " aria-valuemax="
+						100 " style=" width: 60% ">
 <span class=" bar-width ">60%</span>
 </div>
 </div>
@@ -143,28 +184,28 @@ Author URL: https://bootstrapmade.com
 <div class=" progress ">
 <div class=" progress-bar color4 " role=" progressbar " aria-valuenow=" 20" aria-valuemin="
 0 " aria-valuemax=" 100 " style=" width: 40% ">
-<span class=" bar-width ">40%</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class=" col-md-6 wow fadeInRight " data-wow-offset=" 0 " data-wow-delay=" 0.6s "">
-<img src="img/team/6.jpg" class="img-responsive">
-</div>
-</div>
-</div>
-<!--Experience-->
-<section class="experience" id="experience">
-<div class="container">
-<div class="heading text-center">
-<h2>Working Experience</h2>
-<h3> </h3>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="notepad" data-wow-offset="1" data-wow-delay="0.3s" ">
+						<span class=" bar-width ">40%</span>
+					</div>
+				</div>
+			</div>
+	</div>
+	</div>
+	<div class=" col-md-6 wow fadeInRight " data-wow-offset=" 0 " data-wow-delay=" 0.6s "">
+<img src=" img/team/6.jpg" class="img-responsive">
+	</div>
+	</div>
+	</div>
+	<!--Experience-->
+	<section class="experience" id="experience">
+		<div class="container">
+			<div class="heading text-center">
+				<h2>Working Experience</h2>
+				<h3> </h3>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="notepad" data-wow-offset="1" data-wow-delay="0.3s" ">
 <div class=" skill ">
 <div class=" progress-wrap ">
 <h3>Front-end developer at SAINS<h3>
@@ -186,301 +227,335 @@ Successfully develop an internal complaint system for the organization
 Successfully develop 3 web application in 3 months time result in a successful project.
 </div>
 </div>
-<div class="heading text-center">
-<h2>Skills</h2>
-<h3> </h3>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-4">
-<div class="skills">
-<h3 class="main text-center">Mobile Development</h3>
-<div class="restitem clearfix">
-<div class="restitem clearfix">
-<div class="rm-thumb" style="background-image: url(img/react_native.png)">
-</div>
-<h5>React-Native</h5>
-<p>React Native is an open-source mobile application framework created by Facebook. It is used to develop applications for Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities
-</p>
-</div>
-<div class="rm-thumb" style="background-image: url(img/androidStudio.png)">
-</div>
-<h5>Android Studio</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies
-rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-</p>
-</div>
-<div class="restitem clearfix">
-<div class="rm-thumb" style="background-image: url(img/ionic.png) ;background-size:100px;background-repeat: repeat-x;">
-</div>
-<h5>IONIC</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies
-rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="skills">
-<h3 class="main text-center">Front-End Web Development</h3>
+<div class=" heading text-center">
+					<h2>Skills</h2>
+					<h3> </h3>
+				</div>
+				<div class="container" >
+					<div class="row">
+						<div class="col-md-3">
+							<div class="skills" >
+								<h3 class="main text-center">Mobile Development</h3>
+								<div class="restitem clearfix">
+									<div class="restitem clearfix">
+										<div class="rm-thumb" style="background-image: url(img/react_native.png)">
+										</div>
+										<h5>React-Native</h5>
+										<p>React Native is an open-source mobile application framework created by
+											Facebook. It is used to develop applications for Android, iOS, Web and UWP
+											by enabling developers to use React along with native platform capabilities
+										</p>
+									</div>
+									<div class="rm-thumb" style="background-image: url(img/androidStudio.png)">
+									</div>
+									<h5>Android Studio</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit
+										amet lacus ultricies
+										rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac,
+										pellentesque eros.
+									</p>
+								</div>
+								<div class="restitem clearfix">
+									<div class="rm-thumb"
+										style="background-image: url(img/ionic.png) ;background-size:100px;background-repeat: repeat-x;">
+									</div>
+									<h5>IONIC</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit
+										amet lacus ultricies
+										rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac,
+										pellentesque eros.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="skills">
+								<h3 class="main text-center">Front-End Web Development</h3>
 
-<div class="restitem clearfix">
-<div class="rm-thumb" style="background-image: url(img/react_js.png); background-size:120px; background-repeat: repeat-x;">
-</div>
-<h5>React JS</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies
-rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-</p>
-</div>
-<div class="restitem clearfix">
-<div class="rm-thumb" style="background-image: url(img/HTML5CSS3Logos.svg); background-size:145px;">
-</div>
-<h5>HTML 5</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies
-rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-</p>
-</div>
-<div class="restitem clearfix">
-<div class="rm-thumb" style="background-image: url(img/laravel.png); background-size:90px;background-repeat: repeat-y;">
-</div>
-<h5>Laravel</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies
-rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="skills">
-<h3 class="main text-center">Back-end Development</h3>
-<div class="restitem clearfix">
-<div class="rm-thumb" style="background-image: url(img/php.png);background-repeat: repeat-x;">
-</div>
-<h5>PHP</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies
-rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="skills">
-<h3 class="main text-center">Database</h3>
-<div class="restitem clearfix">
-<div class="rm-thumb" style="background-image: url(img/mysql.png);background-size:90px;background-repeat: repeat-x;">
-</div>
-<h5>MySQL</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies
-rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-</p>
-</div>
-<div class="restitem clearfix">
-<div class="rm-thumb" style="background-image: url(img/firebase.png);background-size:90px;background-repeat: repeat-x;">
-</div>
-<h5>Firebase</h5>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies
-rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros.
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!--portfolio-->
-<section class="gallery" id="gallery">
-<div class="container">
-<div class="heading text-center">
-<h2>Portfolio</h2>
-<h3>List of my 8 successful projects</h3>
-</div>
-<div id="grid-gallery" class="grid-gallery">
-<section class="grid-wrap">
-<ul class="grid">
-<li class="grid-sizer"></li>
-<!-- for Masonry column width -->
-<li value="1">
-<figure>
-<img class="myImg" id="myImg" src="img/work/Project1/Litracks.png" alt="" / style="height:200px">
-<figcaption>
-<h3>LiTracks</h3>
-<p>Litigation Tracking System</p>
-</figcaption>
-</figure>
-</li>
-<li>
-<figure>
-<img class="myImg2" id="myImg2" src="img/work/Risk-Management.jpg" alt="" / style="height:200px">
-<figcaption>
-<h3>Risk Management System</h3>
-<p></p>
-</figcaption>
-</figure>
-</li>
-<li>
-<figure>
-<img class="myImg3" id="myImg3" src="img/work/InternTrackSystem.jpg" alt="" / style="height:200px">
-<figcaption>
-<h3>Intern Tracking System</h3>
-<p></p>
-</figcaption>
-</figure>
-</li>
-<li>
-<figure>
-<img class="myImg4" id="myImg4" src="img/work/Saddu.png" alt="" / style="height:200px">
-<figcaption>
-<h3>DBKU Sistem E-aduan Dalaman</h3>
-<p></p>
-</figcaption>
-</figure>
-</li>
-<li>
-<figure>
-<img class="myImg5" id="myImg5" src="img/work/Justmotor.png" alt="" / style="height:200px">
-<figcaption>
-<h3>Justmotor mobile app</h3>
-<p>Powered By Android Studio</p>
-</figcaption>
-</figure>
-</li>
-<li>
-<figure>
-<img class="myImg6" id="myImg6" src="img/work/EventTimerlogo.png" alt="" / style="height:200px">
-<figcaption>
-<h3>EventTimer Mobile app</h3>
-<p>Powered By React Native</p>
-</figcaption>
-</figure>
-</li>
+								<div class="restitem clearfix">
+									<div class="rm-thumb"
+										style="background-image: url(img/react_js.png); background-size:120px; background-repeat: repeat-x;">
+									</div>
+									<h5>React JS</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit
+										amet lacus ultricies
+										rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac,
+										pellentesque eros.
+									</p>
+								</div>
+								<div class="restitem clearfix">
+									<div class="rm-thumb"
+										style="background-image: url(img/HTML5CSS3Logos.svg); background-size:145px;">
+									</div>
+									<h5>HTML 5</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit
+										amet lacus ultricies
+										rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac,
+										pellentesque eros.
+									</p>
+								</div>
+								<div class="restitem clearfix">
+									<div class="rm-thumb"
+										style="background-image: url(img/laravel.png); background-size:90px;background-repeat: repeat-y;">
+									</div>
+									<h5>Laravel</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit
+										amet lacus ultricies
+										rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac,
+										pellentesque eros.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="skills">
+								<h3 class="main text-center">Back-end Development</h3>
+								<div class="restitem clearfix">
+									<div class="rm-thumb"
+										style="background-image: url(img/php.png);background-repeat: repeat-x;">
+									</div>
+									<h5>PHP</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit
+										amet lacus ultricies
+										rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac,
+										pellentesque eros.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="skills">
+								<h3 class="main text-center">Database</h3>
+								<div class="restitem clearfix">
+									<div class="rm-thumb"
+										style="background-image: url(img/mysql.png);background-size:90px;background-repeat: repeat-x;">
+									</div>
+									<h5>MySQL</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit
+										amet lacus ultricies
+										rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac,
+										pellentesque eros.
+									</p>
+								</div>
+								<div class="restitem clearfix">
+									<div class="rm-thumb"
+										style="background-image: url(img/firebase.png);background-size:90px;background-repeat: repeat-x;">
+									</div>
+									<h5>Firebase</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit
+										amet lacus ultricies
+										rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac,
+										pellentesque eros.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	</section>
+	<!--portfolio-->
+	<section class="gallery" id="gallery">
+		<div class="container">
+			<div class="heading text-center">
+				<h2>Portfolio</h2>
+				<h3>List of my 8 successful projects</h3>
+			</div>
+			<div id="grid-gallery" class="grid-gallery">
+				<section class="grid-wrap">
+					<ul class="grid">
+						<li class="grid-sizer"></li>
+						<!-- for Masonry column width -->
+						<li value="1">
+							<figure>
+								<img class="myImg" id="myImg" src="img/work/Project1/Litracks.png" alt="" /
+									style="height:200px">
+								<figcaption>
+									<h3>LiTracks</h3>
+									<p>Litigation Tracking System</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img class="myImg2" id="myImg2" src="img/work/Risk-Management.jpg" alt="" /
+									style="height:200px">
+								<figcaption>
+									<h3>Risk Management System</h3>
+									<p></p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img class="myImg3" id="myImg3" src="img/work/InternTrackSystem.jpg" alt="" /
+									style="height:200px">
+								<figcaption>
+									<h3>Intern Tracking System</h3>
+									<p></p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img class="myImg4" id="myImg4" src="img/work/Saddu.png" alt="" / style="height:200px">
+								<figcaption>
+									<h3>DBKU Sistem E-aduan Dalaman</h3>
+									<p></p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img class="myImg5" id="myImg5" src="img/work/Justmotor.png" alt="" /
+									style="height:200px">
+								<figcaption>
+									<h3>Justmotor mobile app</h3>
+									<p>Powered By Android Studio</p>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img class="myImg6" id="myImg6" src="img/work/EventTimerlogo.png" alt="" /
+									style="height:200px">
+								<figcaption>
+									<h3>EventTimer Mobile app</h3>
+									<p>Powered By React Native</p>
+								</figcaption>
+							</figure>
+						</li>
 
-<li>
-<figure>
-<img class="myImg7" id="myImg7" src="img/work/NeumorList.PNG" alt="" / style="height:200px">
-<figcaption>
-<h3>Neumorphism CheckList</h3>
-<p>Powered By React.Js</p>
-<span class="blinking"><a href="https://shopthis-61174.firebaseapp.com/" target="_blank">DEMO CheckList APP</a></span>
-</figcaption>
-</figure>
-</li>
-<li>
-<figure>
-<img class="myImg8" id="myImg8" src="img/work/ReactSurveylogo.png" alt="" / style="height:200px">
-<figcaption>
-<h3>Survey App</h3>
-<p>Powered By React.Js</p>
-<span class="blinking"><a href="https://surveyapp-d2704.web.app/" target="_blank">DEMO SURVEY APP</a></span>
-</figcaption>
-</figure>
-</li>
-</ul>
-</section>
-<!--Gallery pictures of First System-->
-<div id="myModal" class="modal">
-<div class="w3-content w3-display-container">
-<div align="center">
-<img class="mySlides" src="img/work/Project1/Litracks.png">
-<img class="mySlides" src="img/work/Project1/Litracks2.png">
-</div>
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-<span class="close">&times;</span>
-<div id="caption"></div>
-</div>
-<!--Gallery pictures of First System-->
-<div id="myModal2" class="modal">
-<div class="w3-content w3-display-container">
-<div align="center">
-<img class="mySlides2" src="img/work/Project1/RiskManagement.jpg">
-<img class="mySlides2" src="img/work/Project1/Risk2.png">
-</div>
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-<span class="close">&times;</span>
-<div id="caption"></div>
-</div>
-<!--Gallery pictures of First System-->
-<div id="myModal3" class="modal">
-<div class="w3-content w3-display-container">
-<div align="center">
-<img class="mySlides3" src="img/work/Project1/InternTrackSystem.jpg">
-<img class="mySlides3" src="img/work/Project1/intern3.png">
-</div>
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-<span class="close">&times;</span>
-<div id="caption"></div>
-</div>
-<!--Gallery pictures of First System-->
-<div id="myModal4" class="modal">
-<div class="w3-content w3-display-container">
-<div align="center">
-<img class="mySlides4" src="img/work/Saddu.png">
-<img class="mySlides4" src="img/work/Project1/Saddu6.png">
-</div>
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-<span class="close">&times;</span>
-<div id="caption"></div>
-</div>
-<!--Gallery pictures of First System-->
-<div id="myModal5" class="modal">
-<div class="w3-content w3-display-container">
-<div align="center">
-<img class="mySlides5" src="img/work/Project1/JustMotorShowcase1.png">
-<img class="mySlides5" src="img/work/Project1/JustMotorShowcase2.png">
-</div>
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-<span class="close">&times;</span>
-<div id="caption"></div>
-</div>
-<!--Gallery pictures of First System-->
-<div id="myModal6" class="modal">
-<div class="w3-content w3-display-container">
-<div align="center">
-<img class="mySlides6" src="img/work/eventtimercase.png">
-<img class="mySlides6" src="img/work/Project1/eventtimershowcase.png">
-</div>
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-<span class="close">&times;</span>
-<div id="caption"></div>
-</div>
-<!--Gallery pictures of First System-->
-<div id="myModal7" class="modal">
-<div class="w3-content w3-display-container">
-<div align="center">
-<img class="mySlides7" src="img/work/NeumorList1.PNG">
-<img class="mySlides7" src="img/work/Project1/NeumorList2.PNG">
-</div>
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-<span class="close">&times;</span>
-<div id="caption"></div>
-</div>
-<div id="myModal8" class="modal">
-<div class="w3-content w3-display-container">
-<div align="center">
-<img class="mySlides8" src="img/work/ReactSurvey8.png">
-<img class="mySlides8" src="img/work/Project1/ReactSurvey8.png">
-</div>
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-<span class="close">&times;</span>
-<div id="caption"></div>
-</div>
-<!-- // end small images -->
-<!--
+						<li>
+							<figure>
+								<img class="myImg7" id="myImg7" src="img/work/NeumorList.PNG" alt="" /
+									style="height:200px">
+								<figcaption>
+									<h3>Neumorphism CheckList</h3>
+									<p>Powered By React.Js</p>
+									<span class="blinking"><a href="https://shopthis-61174.firebaseapp.com/"
+											target="_blank">DEMO CheckList APP</a></span>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img class="myImg8" id="myImg8" src="img/work/ReactSurveylogo.png" alt="" /
+									style="height:200px">
+								<figcaption>
+									<h3>Survey App</h3>
+									<p>Powered By React.Js</p>
+									<span class="blinking"><a href="https://surveyapp-d2704.web.app/"
+											target="_blank">DEMO SURVEY APP</a></span>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+				</section>
+				<!--Gallery pictures of First System-->
+				<div id="myModal" class="modal">
+					<div class="w3-content w3-display-container">
+						<div align="center">
+							<img class="mySlides" src="img/work/Project1/Litracks.png">
+							<img class="mySlides" src="img/work/Project1/Litracks2.png">
+						</div>
+						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<span class="close">&times;</span>
+					<div id="caption"></div>
+				</div>
+				<!--Gallery pictures of First System-->
+				<div id="myModal2" class="modal">
+					<div class="w3-content w3-display-container">
+						<div align="center">
+							<img class="mySlides2" src="img/work/Project1/RiskManagement.jpg">
+							<img class="mySlides2" src="img/work/Project1/Risk2.png">
+						</div>
+						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<span class="close">&times;</span>
+					<div id="caption"></div>
+				</div>
+				<!--Gallery pictures of First System-->
+				<div id="myModal3" class="modal">
+					<div class="w3-content w3-display-container">
+						<div align="center">
+							<img class="mySlides3" src="img/work/Project1/InternTrackSystem.jpg">
+							<img class="mySlides3" src="img/work/Project1/intern3.png">
+						</div>
+						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<span class="close">&times;</span>
+					<div id="caption"></div>
+				</div>
+				<!--Gallery pictures of First System-->
+				<div id="myModal4" class="modal">
+					<div class="w3-content w3-display-container">
+						<div align="center">
+							<img class="mySlides4" src="img/work/Saddu.png">
+							<img class="mySlides4" src="img/work/Project1/Saddu6.png">
+						</div>
+						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<span class="close">&times;</span>
+					<div id="caption"></div>
+				</div>
+				<!--Gallery pictures of First System-->
+				<div id="myModal5" class="modal">
+					<div class="w3-content w3-display-container">
+						<div align="center">
+							<img class="mySlides5" src="img/work/Project1/JustMotorShowcase1.png">
+							<img class="mySlides5" src="img/work/Project1/JustMotorShowcase2.png">
+						</div>
+						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<span class="close">&times;</span>
+					<div id="caption"></div>
+				</div>
+				<!--Gallery pictures of First System-->
+				<div id="myModal6" class="modal">
+					<div class="w3-content w3-display-container">
+						<div align="center">
+							<img class="mySlides6" src="img/work/eventtimercase.png">
+							<img class="mySlides6" src="img/work/Project1/eventtimershowcase.png">
+						</div>
+						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<span class="close">&times;</span>
+					<div id="caption"></div>
+				</div>
+				<!--Gallery pictures of First System-->
+				<div id="myModal7" class="modal">
+					<div class="w3-content w3-display-container">
+						<div align="center">
+							<img class="mySlides7" src="img/work/NeumorList1.PNG">
+							<img class="mySlides7" src="img/work/Project1/NeumorList2.PNG">
+						</div>
+						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<span class="close">&times;</span>
+					<div id="caption"></div>
+				</div>
+				<div id="myModal8" class="modal">
+					<div class="w3-content w3-display-container">
+						<div align="center">
+							<img class="mySlides8" src="img/work/ReactSurvey8.png">
+							<img class="mySlides8" src="img/work/Project1/ReactSurvey8.png">
+						</div>
+						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					</div>
+					<span class="close">&times;</span>
+					<div id="caption"></div>
+				</div>
+				<!-- // end small images -->
+				<!--
 <section class="slideshow">
 <ul>
 <li>
@@ -534,383 +609,459 @@ rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pell
 <div class="info-keys icon">Navigate with arrow keys</div>
 </section>
 <!-- // end slideshow -->
-</div>
-<!-- // grid-gallery -->
-</div>
-</section>
-<!--education-->
-<section class="feedback" id="feedback">
-<div class="container">
-<div class="heading">
-<h2>Education</h2>
-<h3></h3>
-</div>
-</div>
-<div class="container">
-<div class="col-md-5 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
-<div class="text-center">
-<div class="hi-icon-wrap hi-icon-effect">
-<h3>DIPLOMA IN COMPUTER SCIENCE</h3>
-<h5>MARCH 2016</h5>
-<i class="fa fa-laptop"></i>
-<p>UiTM Kota Samarahan</p>
-</div>
-</div>
-</div>
-<div class="col-md-5 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
-<div class="text-center">
-<div class="hi-icon-wrap hi-icon-effect">
-<h3>BACHELOR OF INFORMATION TECHNOLOGY (HONS.) </h3>
-<h5>JULY 2019</h5>
-<i class="fa fa-book"></i>
-<p>UiTM Shah Alam</p>
-</div>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="heading">
-<h2>Achievements</h2>
-</div>
-<div class=" col-md-6 wow fadeInRight " data-wow-offset=" 0 " data-wow-delay=" 0.6s ">
-<img src="img/3rdplace.jpg" class="img-responsive">
-</div>
-<blockquote class="wow fadeInLeft " data-wow-offset=" 0 " data-wow-delay=" 0.6s " style="font-size:25px">The development of Mobile Based Ride e-hailing mobile applicataion (JustMotor).The benefits of the project is to provide a cheaper alternative transportation in the UiTM Shah Alam campus</blockquote><cite class=" col-md-4 wow fadeInRight " data-wow-offset=" 0 " data-wow-delay=" 0.6s " style="color:Green;font-size:20px">Best Final Year Project Achievement FSKM(3rd Place)<br /><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite> 
-</div>
-</div>
-</section>
-<!--education-->
-<section class="contact" id="contact">
-<div class="container">
-<div class="heading">
-<h2>Contact</h2>
-<h3></h3>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-md-7">
-<div class="map">
-<iframe src="https://maps.google.com/maps?q=kuala%20lumpur&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%"
-height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-</div>
-<div class="contact-info">
-<div class="col-md-5">
-<h4>My Contact Info</h4>
-<h5>Actively seeking job employment</h5>
-<p>Feel free to email me for job oppurtunities.</p>
-<ul>
-<li><i class="fa fa-home fa-2x"></i> Kuala Lumpur/Kuching,Sarawak</li>
-<li><i class="fa fa-envelope fa-2x"></i> irfansoftwaredeveloper@gmail.com</li>
-<li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="contact-info">
-<span class="blinking2">
-<div class="text-center"><i class="fa fa-download fa-2x" ></i><a href="https://getresume-ca7b5.web.app/" target="_blank"> Download My Resume</a></li></div>
-</span>
-</div>
-</form>
-</div>
-</div>
-</div>
-</section>
-<!--footer-->
-<section class="footer" id="footer">
-<p class="text-center">
-<a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
-</p>
-<div align="center">
-<br>
-<!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=7219001&style=0010&nbdigits=5&type=ip&initCount=0" title="User Stats" Alt="PHP Hits Count"   border="0" >
-</a>                       
-</div>                
-<div class="container">
-<ul>
-<li><a href="https://www.linkedin.com/in/irfanjulaihi/"><i class="fa fa-linkedin"></i></a></li>
-<li><a href="https://github.com/IrfanJulaihi"><i class="fa fa-github"></i></a></li>
-</ul>
-<p>&copy; MyResume Theme. All Rights Reserved.</p>
-<div class="credits">
-<!--
+			</div>
+			<!-- // grid-gallery -->
+		</div>
+	</section>
+	<!--education-->
+	<section class="feedback" id="feedback">
+		<div class="container">
+			<div class="heading">
+				<h2>Education</h2>
+				<h3></h3>
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-md-5 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
+				<div class="text-center">
+					<div class="hi-icon-wrap hi-icon-effect">
+						<h3>DIPLOMA IN COMPUTER SCIENCE</h3>
+						<h5>MARCH 2016</h5>
+						<i class="fa fa-laptop"></i>
+						<p>UiTM Kota Samarahan</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+				<div class="text-center">
+					<div class="hi-icon-wrap hi-icon-effect">
+						<h3>BACHELOR OF INFORMATION TECHNOLOGY (HONS.) </h3>
+						<h5>JULY 2019</h5>
+						<i class="fa fa-book"></i>
+						<p>UiTM Shah Alam</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="heading">
+					<h2>Achievements</h2>
+				</div>
+				<div class=" col-md-6 wow fadeInRight " data-wow-offset=" 0 " data-wow-delay=" 0.6s ">
+					<img src="img/3rdplace.jpg" class="img-responsive">
+				</div>
+				<blockquote class="wow fadeInLeft " data-wow-offset=" 0 " data-wow-delay=" 0.6s "
+					style="font-size:25px">The development of Mobile Based Ride e-hailing mobile applicataion
+					(JustMotor).The benefits of the project is to provide a cheaper alternative transportation in the
+					UiTM Shah Alam campus</blockquote><cite class=" col-md-4 wow fadeInRight " data-wow-offset=" 0 "
+					data-wow-delay=" 0.6s " style="color:Green;font-size:20px">Best Final Year Project Achievement
+					FSKM(3rd Place)<br /><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+						class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite>
+			</div>
+		</div>
+	</section>
+	<!--education-->
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="heading">
+				<h2>Contact</h2>
+				<h3></h3>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="map">
+						<iframe src="https://maps.google.com/maps?q=kuala%20lumpur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+							width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="contact-info">
+					<div class="col-md-5">
+						<h4>My Contact Info</h4>
+						<h5>Actively seeking job employment</h5>
+						<p>Feel free to email me for job oppurtunities.</p>
+						<ul>
+							<li><i class="fa fa-home fa-2x"></i> Kuala Lumpur/Kuching,Sarawak</li>
+							<li><i class="fa fa-envelope fa-2x"></i> irfansoftwaredeveloper@gmail.com</li>
+							<li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contact-info">
+			<span class="blinking2">
+				<div class="text-center"><i class="fa fa-download fa-2x"></i><a href="https://getresume-ca7b5.web.app/"
+						target="_blank"> Download My Resume</a></li>
+				</div>
+			</span>
+		</div>
+		</form>
+		</div>
+		</div>
+		</div>
+	</section>
+	<!--footer-->
+	<section class="footer" id="footer">
+		<p class="text-center">
+			<a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+		</p>
+		<div align="center">
+			<br>
+			<!-- hitwebcounter Code START -->
+			<a href="https://www.hitwebcounter.com" target="_blank">
+				<img src="https://hitwebcounter.com/counter/counter.php?page=7219001&style=0010&nbdigits=5&type=ip&initCount=0"
+					title="User Stats" Alt="PHP Hits Count" border="0">
+			</a>
+		</div>
+		<div class="container">
+			<ul>
+				<li><a href="https://www.linkedin.com/in/irfanjulaihi/"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://github.com/IrfanJulaihi"><i class="fa fa-github"></i></a></li>
+			</ul>
+			<p>&copy; MyResume Theme. All Rights Reserved.</p>
+			<div class="credits">
+				<!--
 All the links in the footer should remain intact.
 You can delete the links only if you purchased the pro version.
 Licensing information: https://bootstrapmade.com/license/
 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyResume
 -->
-Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-</div>
-</div>
-</section>
-</div>
-<script src="js/jquery.js"></script>
-<script src="js/typeAnimation.js"></script>
-<script src="js/modernizr.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/menustick.js"></script>
-<script src="js/parallax.js"></script>
-<script src="js/easing.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/masonry.js"></script>
-<script src="js/imgloaded.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/colorfinder.js"></script>
-<script src="js/gridscroll.js"></script>
-<script src="js/contact.js"></script>
-<script src="js/common.js"></script>
-<script>
-wow = new WOW({}).init();
-</script>
-<script type="text/javascript">
-jQuery(function ($) {
-	$(document).ready(function () {
-		//enabling stickUp on the '.navbar-wrapper' class
-		$('.navbar-wrapper').stickUp({
-			parts: {
-				0: 'banner',
-				1: 'aboutus',
-				2: 'specialties',
-				3: 'experience',
-				4: 'gallery',
-				5: 'feedback',
-				6: 'contact'
-				},
-				itemClass: 'menuItem',
-				itemHover: 'active',
-				topMargin: 'auto'
+				Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+			</div>
+		</div>
+	</section>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/typeAnimation.js"></script>
+	<script src="js/modernizr.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/menustick.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/easing.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/masonry.js"></script>
+	<script src="js/imgloaded.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/colorfinder.js"></script>
+	<script src="js/gridscroll.js"></script>
+	<script src="js/contact.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+		wow = new WOW({}).init();
+	</script>
+	<script type="text/javascript">
+		jQuery(function ($) {
+			$(document).ready(function () {
+				//enabling stickUp on the '.navbar-wrapper' class
+				$('.navbar-wrapper').stickUp({
+					parts: {
+						0: 'banner',
+						1: 'aboutus',
+						2: 'specialties',
+						3: 'experience',
+						4: 'gallery',
+						5: 'feedback',
+						6: 'contact'
+					},
+					itemClass: 'menuItem',
+					itemHover: 'active',
+					topMargin: 'auto'
 				});
+			});
 		});
-	});
-</script>
-<script src="contactform/contactform.js"></script>
-<script>
-// Get the modal
-var modalArray = [document.getElementById("myModal"),document.getElementById("myModal2"),document.getElementById("myModal3"),document.getElementById("myModal4")
-,document.getElementById("myModal5"),document.getElementById("myModal6"),document.getElementById("myModal7"),document.getElementById("myModal8")];
-var modalImgSelector=[$('.myImg'),$('.myImg2'),$('.myImg3'),$('.myImg4'),$('.myImg5'),$('.myImg6'),$('.myImg7'),$('.myImg8')];
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-//for evert image need modal
-var captionText = document.getElementById("caption");
-for(i=0;i<modalArray.length;i++){
-	var Img="";
-	if (i==0){
-		var Img="myImg"
-		}else if(i>0){
-			var Img="myImg"+i;
+	</script>
+	<script src="contactform/contactform.js"></script>
+	<script>
+		(function () {
+			var startingDate = '2020-05-04';
+			var endingDate = new Date().getFullYear() + '-' + ("0" + (new Date().getMonth() + 1)).slice(-2) + '-' + ("0" + new Date().getDate()).slice(-2);
+
+			var startDate = new Date(new Date(startingDate).toISOString().substr(0, 10));
+			if (!endingDate) {
+				endingDate = new Date().toISOString().substr(0, 10);    // need date in YYYY-MM-DD format
+			}
+			var endDate = new Date(endingDate);
+			if (startDate > endDate) {
+				var swap = startDate;
+				startDate = endDate;
+				endDate = swap;
+			}
+			var startYear = startDate.getFullYear();
+			var february = (startYear % 4 === 0 && startYear % 100 !== 0) || startYear % 400 === 0 ? 29 : 28;
+			var daysInMonth = [31, february, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+			var yearDiff = endDate.getFullYear() - startYear;
+			var monthDiff = endDate.getMonth() - startDate.getMonth();
+			if (monthDiff < 0) {
+				yearDiff--;
+				monthDiff += 12;
+			}
+			var dayDiff = endDate.getDate() - startDate.getDate();
+			if (dayDiff < 0) {
+				if (monthDiff > 0) {
+					monthDiff--;
+				} else {
+					yearDiff--;
+					monthDiff = 11;
+				}
+				dayDiff += daysInMonth[startDate.getMonth()];
+			}
+
+			console.log(yearDiff + 'Y ' + monthDiff + 'M ' + dayDiff + 'D');
+
+
+			// const second = 1000,
+			// 	minute = second * 60,
+			// 	hour = minute * 60,
+			// 	day = hour * 24;
+
+			// let birthday = "Sep 30, 2021 00:00:00",
+			// 	countDown = new Date(birthday).getTime(),
+			// x = setInterval(function () {
+
+			// 	let now = new Date().getTime(),
+			// 		distance = countDown - now;
+
+
+			document.getElementById("years").innerText = yearDiff,
+				document.getElementById("months").innerText = monthDiff + 6,
+				document.getElementById("days").innerText = dayDiff;
+			// document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+			//do something later when date is reached
+			// if (distance < 0) {
+			// 	let headline = document.getElementById("headline"),
+			// 		countdown = document.getElementById("countdown"),
+			// 		content = document.getElementById("content");
+
+			// 	headline.innerText = "It's my birthday!";
+			// 	countdown.style.display = "none";
+			// 	content.style.display = "block";
+
+			// 	clearInterval(x);
+			// }
+			//seconds
+			// }, 0)
+		}());
+
+
+
+		// Get the modal
+		var modalArray = [document.getElementById("myModal"), document.getElementById("myModal2"), document.getElementById("myModal3"), document.getElementById("myModal4")
+			, document.getElementById("myModal5"), document.getElementById("myModal6"), document.getElementById("myModal7"), document.getElementById("myModal8")];
+		var modalImgSelector = [$('.myImg'), $('.myImg2'), $('.myImg3'), $('.myImg4'), $('.myImg5'), $('.myImg6'), $('.myImg7'), $('.myImg8')];
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		//for evert image need modal
+		var captionText = document.getElementById("caption");
+		for (i = 0; i < modalArray.length; i++) {
+			var Img = "";
+			if (i == 0) {
+				var Img = "myImg"
+			} else if (i > 0) {
+				var Img = "myImg" + i;
+			}
+			//Pop up modal from grid selection
+			$(modalImgSelector[0]).click(function () {
+				myModal.style.display = "block";
+				var newSrc = this.src;
+				modalImgSelector[i].attr('src', newSrc);
+				captionText.innerHTML = this.alt;
+			});
+			$(modalImgSelector[1]).click(function () {
+				myModal2.style.display = "block";
+				var newSrc = this.src;
+				modalImgSelector[i].attr('src', newSrc);
+				captionText.innerHTML = this.alt;
+			});
+			$(modalImgSelector[2]).click(function () {
+				myModal3.style.display = "block";
+				var newSrc = this.src;
+				modalImgSelector[i].attr('src', newSrc);
+				captionText.innerHTML = this.alt;
+			});
+			$(modalImgSelector[3]).click(function () {
+				myModal4.style.display = "block";
+				var newSrc = this.src;
+				modalImgSelector[i].attr('src', newSrc);
+				captionText.innerHTML = this.alt;
+			});
+			$(modalImgSelector[4]).click(function () {
+				myModal5.style.display = "block";
+				var newSrc = this.src;
+				modalImgSelector[i].attr('src', newSrc);
+				captionText.innerHTML = this.alt;
+			});
+			$(modalImgSelector[5]).click(function () {
+				myModal6.style.display = "block";
+				var newSrc = this.src;
+				modalImgSelector[i].attr('src', newSrc);
+				captionText.innerHTML = this.alt;
+			});
+			$(modalImgSelector[6]).click(function () {
+				myModal7.style.display = "block";
+				var newSrc = this.src;
+				modalImgSelector[i].attr('src', newSrc);
+				captionText.innerHTML = this.alt;
+			});
+			$(modalImgSelector[7]).click(function () {
+				myModal8.style.display = "block";
+				var newSrc = this.src;
+				modalImgSelector[i].attr('src', newSrc);
+				captionText.innerHTML = this.alt;
+			});
 		}
-		//Pop up modal from grid selection
-		$(modalImgSelector[0]).click(function () {
-			myModal.style.display = "block";
-			var newSrc = this.src;
-			modalImgSelector[i].attr('src', newSrc);
-			captionText.innerHTML = this.alt;
-			});
-		$(modalImgSelector[1]).click(function () {
-			myModal2.style.display = "block";
-			var newSrc = this.src;
-			modalImgSelector[i].attr('src', newSrc);
-			captionText.innerHTML = this.alt;
-			});
-		$(modalImgSelector[2]).click(function () {
-			myModal3.style.display = "block";
-			var newSrc = this.src;
-			modalImgSelector[i].attr('src', newSrc);
-			captionText.innerHTML = this.alt;
-			});
-		$(modalImgSelector[3]).click(function () {
-			myModal4.style.display = "block";
-			var newSrc = this.src;
-			modalImgSelector[i].attr('src', newSrc);
-			captionText.innerHTML = this.alt;
-			});
-		$(modalImgSelector[4]).click(function () {
-			myModal5.style.display = "block";
-			var newSrc = this.src;
-			modalImgSelector[i].attr('src', newSrc);
-			captionText.innerHTML = this.alt;
-			});
-		$(modalImgSelector[5]).click(function () {
-			myModal6.style.display = "block";
-			var newSrc = this.src;
-			modalImgSelector[i].attr('src', newSrc);
-			captionText.innerHTML = this.alt;
-			});
-		$(modalImgSelector[6]).click(function () {
-			myModal7.style.display = "block";
-			var newSrc = this.src;
-			modalImgSelector[i].attr('src', newSrc);
-			captionText.innerHTML = this.alt;
-			});
-		$(modalImgSelector[7]).click(function () {
-			myModal8.style.display = "block";
-			var newSrc = this.src;
-			modalImgSelector[i].attr('src', newSrc);
-			captionText.innerHTML = this.alt;
-			});
-	}
-	// Get the <span> element that closes the modal
-	var span = document.getElementsByClassName("close")[0];
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
 
-	span.onclick = function () {
+		span.onclick = function () {
 
-		myModal.style.display = "none";
-	}
-	var span1 = document.getElementsByClassName("close")[1];
+			myModal.style.display = "none";
+		}
+		var span1 = document.getElementsByClassName("close")[1];
 
-	span1.onclick = function () {
+		span1.onclick = function () {
 
-		myModal2.style.display = "none";
-	}
+			myModal2.style.display = "none";
+		}
 
-	var span2 = document.getElementsByClassName("close")[2];
+		var span2 = document.getElementsByClassName("close")[2];
 
-	span2.onclick = function () {
+		span2.onclick = function () {
 
-		myModal3.style.display = "none";
-	}
+			myModal3.style.display = "none";
+		}
 
-	var span3 = document.getElementsByClassName("close")[3];
+		var span3 = document.getElementsByClassName("close")[3];
 
-	span3.onclick = function () {
+		span3.onclick = function () {
 
-		myModal4.style.display = "none";
-	}
-	var span4 = document.getElementsByClassName("close")[4];
+			myModal4.style.display = "none";
+		}
+		var span4 = document.getElementsByClassName("close")[4];
 
-	span4.onclick = function () {
+		span4.onclick = function () {
 
-		myModal5.style.display = "none";
-	}
-	var span5 = document.getElementsByClassName("close")[5];
+			myModal5.style.display = "none";
+		}
+		var span5 = document.getElementsByClassName("close")[5];
 
-	span5.onclick = function () {
+		span5.onclick = function () {
 
-		myModal6.style.display = "none";
-	}
-	var span6 = document.getElementsByClassName("close")[6];
+			myModal6.style.display = "none";
+		}
+		var span6 = document.getElementsByClassName("close")[6];
 
-	span6.onclick = function () {
+		span6.onclick = function () {
 
-		myModal7.style.display = "none";
-	}
-	var span7 = document.getElementsByClassName("close")[7];
+			myModal7.style.display = "none";
+		}
+		var span7 = document.getElementsByClassName("close")[7];
 
-	span7.onclick = function () {
+		span7.onclick = function () {
 
-		myModal7.style.display = "none";
-	}
+			myModal7.style.display = "none";
+		}
 
-	var span8 = document.getElementsByClassName("close")[7];
+		var span8 = document.getElementsByClassName("close")[7];
 
-	span8.onclick = function () {
+		span8.onclick = function () {
 
-		myModal8.style.display = "none";
-	}
+			myModal8.style.display = "none";
+		}
 	</script>
 	<script>
-	var slideIndex = 1;
-	showDivs(slideIndex);
+		var slideIndex = 1;
+		showDivs(slideIndex);
 
-	function plusDivs(n) {
-		showDivs(slideIndex += n);
-	}
-
-	function showDivs(n) {
-		var i;
-		var x = document.getElementsByClassName("mySlides");
-		var x2 = document.getElementsByClassName("mySlides2");
-		var x3 = document.getElementsByClassName("mySlides3");
-		var x4 = document.getElementsByClassName("mySlides4");
-		var x5 = document.getElementsByClassName("mySlides5");
-		var x6 = document.getElementsByClassName("mySlides6");
-		var x7 = document.getElementsByClassName("mySlides7");
-		var x8 = document.getElementsByClassName("mySlides8");
-
-
-		if(x[0].className=="mySlides"){
-			if (n > x.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x.length }
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";
-			}
-			x[slideIndex - 1].style.display = "block";
-		}
-		if(x2[0].className=="mySlides2"){
-			if (n > x2.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x2.length }
-			for (i = 0; i < x2.length; i++) {
-				x2[i].style.display = "none";
-			}
-			x2[slideIndex - 1].style.display = "block";
-		}
-		if(x3[0].className=="mySlides3"){
-			if (n > x3.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x3.length }
-			for (i = 0; i < x3.length; i++) {
-				x3[i].style.display = "none";
-			}
-			x3[slideIndex - 1].style.display = "block";
-		}
-		if(x4[0].className=="mySlides4"){
-			if (n > x4.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x4.length }
-			for (i = 0; i < x4.length; i++) {
-				x4[i].style.display = "none";
-			}
-			x4[slideIndex - 1].style.display = "block";
-		}
-		if(x5[0].className=="mySlides5"){
-			if (n > x5.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x5.length }
-			for (i = 0; i < x5.length; i++) {
-				x5[i].style.display = "none";
-			}
-			x5[slideIndex - 1].style.display = "block";
-			console.log(slideIndex);
-		}
-		if(x6[0].className=="mySlides6"){
-			if (n > x6.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x6.length }
-			for (i = 0; i < x6.length; i++) {
-				x6[i].style.display = "none";
-			}
-			x6[slideIndex - 1].style.display = "block";
-		}
-		if(x7[0].className=="mySlides7"){
-			if (n > x7.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x7.length }
-			for (i = 0; i < x7.length; i++) {
-				x7[i].style.display = "none";
-			}
-			x7[slideIndex - 1].style.display = "block";
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
 		}
 
-		if(x8[0].className=="mySlides8"){
-			if (n > x8.length) { slideIndex = 1 }
-			if (n < 1) { slideIndex = x8.length }
-			for (i = 0; i < x8.length; i++) {
-				x8[i].style.display = "none";
-			}
-			x8[slideIndex - 1].style.display = "block";
-		}
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			var x2 = document.getElementsByClassName("mySlides2");
+			var x3 = document.getElementsByClassName("mySlides3");
+			var x4 = document.getElementsByClassName("mySlides4");
+			var x5 = document.getElementsByClassName("mySlides5");
+			var x6 = document.getElementsByClassName("mySlides6");
+			var x7 = document.getElementsByClassName("mySlides7");
+			var x8 = document.getElementsByClassName("mySlides8");
 
-	}
+
+			if (x[0].className == "mySlides") {
+				if (n > x.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = x.length }
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				x[slideIndex - 1].style.display = "block";
+			}
+			if (x2[0].className == "mySlides2") {
+				if (n > x2.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = x2.length }
+				for (i = 0; i < x2.length; i++) {
+					x2[i].style.display = "none";
+				}
+				x2[slideIndex - 1].style.display = "block";
+			}
+			if (x3[0].className == "mySlides3") {
+				if (n > x3.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = x3.length }
+				for (i = 0; i < x3.length; i++) {
+					x3[i].style.display = "none";
+				}
+				x3[slideIndex - 1].style.display = "block";
+			}
+			if (x4[0].className == "mySlides4") {
+				if (n > x4.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = x4.length }
+				for (i = 0; i < x4.length; i++) {
+					x4[i].style.display = "none";
+				}
+				x4[slideIndex - 1].style.display = "block";
+			}
+			if (x5[0].className == "mySlides5") {
+				if (n > x5.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = x5.length }
+				for (i = 0; i < x5.length; i++) {
+					x5[i].style.display = "none";
+				}
+				x5[slideIndex - 1].style.display = "block";
+				console.log(slideIndex);
+			}
+			if (x6[0].className == "mySlides6") {
+				if (n > x6.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = x6.length }
+				for (i = 0; i < x6.length; i++) {
+					x6[i].style.display = "none";
+				}
+				x6[slideIndex - 1].style.display = "block";
+			}
+			if (x7[0].className == "mySlides7") {
+				if (n > x7.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = x7.length }
+				for (i = 0; i < x7.length; i++) {
+					x7[i].style.display = "none";
+				}
+				x7[slideIndex - 1].style.display = "block";
+			}
+
+			if (x8[0].className == "mySlides8") {
+				if (n > x8.length) { slideIndex = 1 }
+				if (n < 1) { slideIndex = x8.length }
+				for (i = 0; i < x8.length; i++) {
+					x8[i].style.display = "none";
+				}
+				x8[slideIndex - 1].style.display = "block";
+			}
+		}
 	</script>
+</body>
 
-
-
-
-
-	</body>
-
-	</html>
+</html>
