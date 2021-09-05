@@ -1,0 +1,83 @@
+.photo {
+    float:left;
+    position: relative;
+    width:auto;
+    height:auto;
+    background-color: #DDD;
+    margin:16px;
+  }
+  
+  .var1 {
+    border: 5px solid white;
+            box-shadow: 0 0 8px rgba(0,0,0,.4);
+       -moz-box-shadow: 0 0 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0 0 8px rgba(0,0,0,.4);
+  }
+  
+  .var2 {
+    /* z-index: 1; */
+    margin: 16px;
+    border: 1px solid #efefef;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
+                        0 0  40px rgba(0, 0, 0, 0.06) inset;
+       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
+                        0 0 40px  rgba(0, 0, 0, 0.06) inset; 
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
+                        0 0 40px  rgba(0, 0, 0, 0.06) inset;
+  }
+  .var2:before, .var2:after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 70%;
+  max-width: 300px;
+  max-height: 100px;
+  height: 55%;
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  -webkit-transform: skew(-15deg) rotate(-6deg);
+     -moz-transform: skew(-15deg) rotate(-6deg);
+      -ms-transform: skew(-15deg) rotate(-6deg);
+       -o-transform: skew(-15deg) rotate(-6deg);
+          transform: skew(-15deg) rotate(-6deg);
+  }
+  .var2:after {
+    left: auto;
+    right: 10px;
+    -webkit-transform: skew(15deg) rotate(6deg);
+       -moz-transform: skew(15deg) rotate(6deg);
+        -ms-transform: skew(15deg) rotate(6deg);
+         -o-transform: skew(15deg) rotate(6deg);
+            transform: skew(15deg) rotate(6deg);
+  }
+  
+  .var3 {
+    border: 5px solid white;
+            box-shadow: 1px 1px 8px rgba(0,0,0,.3);
+       -moz-box-shadow: 1px 1px 8px rgba(0,0,0,.3);
+    -webkit-box-shadow: 1px 1px 8px rgba(0,0,0,.3);
+  }
+  .var3:before, .var3:after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 70%;
+  max-width: 300px;
+  max-height: 100px;
+  height: 55%;
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+     -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  -webkit-transform: skew(15deg) rotate(6deg);
+     -moz-transform: skew(15deg) rotate(6deg);
+      -ms-transform: skew(15deg) rotate(6deg);
+       -o-transform: skew(15deg) rotate(6deg);
+          transform: skew(15deg) rotate(6deg);
+  }
+  
